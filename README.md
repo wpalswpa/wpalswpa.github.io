@@ -1,18 +1,19 @@
-# STT + LLM 우울 위험 스크리닝
+## 이제민 · AI Developer
 
-복지상담 음성 데이터를 Whisper로 전사하고, GPT Zero-shot 분류기로
-우울·비우울을 분류한 연구 프로젝트입니다.
+병원경영 전공 + 보험사 실무 경험을 바탕으로
+Medical AI / LLM Application 개발을 목표로 합니다.
 
-## 주요 결과
-| 모델 | Accuracy | Precision | Recall | F1 |
-|------|----------|-----------|--------|----|
-| GPT-3.5 turbo | 0.57 | 0.70 | 0.25 | 0.37 |
-| GPT-4o | 0.57 | **0.82** | 0.19 | 0.31 |
+### 🔧 Skills
+Python · GPT API · OpenAI Whisper · Scikit-LLM · Pandas · scikit-learn
 
-## 사용 기술
-- OpenAI Whisper (STT 전처리)
-- GPT API + Scikit-LLM (Zero-shot 분류)
-- Python, Google Colab
+### 📁 Projects
+| 프로젝트 | 설명 | 기술 |
+|---------|------|------|
+| [STT+LLM 우울 스크리닝](링크) | 복지상담 음성 → GPT Zero-shot 분류 · KICS 2025 발표 | Whisper, GPT API |
+| [안면비대칭 뇌졸중 인지](링크) | MediaPipe 랜드마크 기반 스크리닝 | MediaPipe, OpenCV |
 
-## 데이터
-AI Hub 정신건강 상담 데이터 5,000건 (우울/비우울 각 2,500건)
+### 📄 Publication
+복지상담 음성데이터 기반 우울증 조기진단을 위한 감성 분류 모델 성능 비교 · KICS 2025
+
+### 📬 Contact
+dlwpals0825@gmail.com
